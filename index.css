@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background for navbar */
+    padding: 1rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navbar links styles */
+.nav-links {
+    list-style: none; /* Remove list bullet points */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.nav-links a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size for links */
+    padding: 8px 16px; /* Space inside each link */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    background-color: #575757; /* Darker shade for hover effect */
+    border-radius: 4px; /* Rounded corners */
+}
