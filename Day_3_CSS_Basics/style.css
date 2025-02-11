@@ -47,7 +47,6 @@ body {
     padding: 20px;
     width: 200px;
     height: 150px;
-    overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -55,7 +54,6 @@ body {
   .box2 p {
     font-size: 14px;
     margin: 0;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     color: white;
@@ -71,7 +69,6 @@ body {
   
   footer ol {
     padding-left: 0;
-    list-style-type: circle;
     font-size: 1.2rem;
     color: white;
   }
