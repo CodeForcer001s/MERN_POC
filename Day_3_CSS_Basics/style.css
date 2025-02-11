@@ -1,0 +1,17 @@
+.external{
+    background-color: mediumvioletred;
+    height: 600px;
+    width: 400px;
+}
+#idselector{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+ol{
+    margin-top: 100px;
+    list-style-type: circle;
+
+}
+*{
+    background-color:crimson;
+}
