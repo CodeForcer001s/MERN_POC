@@ -1,0 +1,22 @@
+.float-left{
+    float : left;
+    margin : 0px 15px 0px 0px;
+    /* margin-left: 10px; */
+}
+.float-right{
+    float : right;
+    /* margin-right: 10px; */
+}
+
+.float-center{
+    float : inline-end;
+    /* margin-right: 10px; */
+}
+
+img {
+    display: block;
+    width : 500px;
+    height: 250px; /* Adjust size */
+    height: auto;
+    border: 10px solid rgba(0, 0, 0, 0.3); /* Semi-transparent border */
+}

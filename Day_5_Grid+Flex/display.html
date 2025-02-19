@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Display Properties</title>
+    <style>
+        /* Task - Inline list with numbering */
+        ol {
+            list-style : none;
+            padding: 0;
+        }
+
+        li::before {
+            content: counters(item, ".") ". ";
+            content: counters(item, ".") ") ";
+            counter-increment: item;
+        }
+    </style>
+</head>
+<body>
+    <h4>This is the display properties example</h4>
+    <ol>
+        <li>Block</li>
+        <li>Inline</li>
+        <li>inline-block</li>
+        <li>none</li>
+        <li>flex/flexbox</li>
+        <li>grid</li>
+    </ol>
+    <h1>This is an Block element </h1>
+    <span class="background-color : grey; color : grey;" >This is an Inline element a span tag</span>
+    <span>This is an Inline element a span tag</span>
+    <h1>this is an h1 tags</h1>
+</body>
+</html>

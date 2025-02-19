@@ -1,0 +1,33 @@
+header{
+    background-color: cyan; 
+
+}
+
+nav{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    list-style: none;
+    justify-content: space-around;
+    font-weight: bold;
+    margin: 0px;
+    padding : 10px
+    /* text-underline-offset: -15px; */
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: lightgreen   ;
+    background-color: white;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+
+dropdown{
+    display:flex;
+    flex-direction:row-reverse;
+}
